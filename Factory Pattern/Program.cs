@@ -18,7 +18,7 @@ namespace Factory_Pattern
             switch (card.ToLower())
             {
                 case "moneyback":
-                    factory = new MoneyBackCard(50000, 0);
+                    factory = new MoneyBackCard(50000, 0); 
                     break;
                 case "titanium":
                     factory = new TitaniumCard(100000, 500);
